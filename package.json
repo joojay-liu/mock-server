@@ -1,0 +1,21 @@
+{
+  "name": "mock-server",
+  "version": "1.0.0",
+  "description": "mock",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "koa": "^2.7.0",
+    "koa-router": "^7.4.0",
+    "koa-server-http-proxy": "^0.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
